@@ -100,13 +100,48 @@
       ],
       "Replication": "Auto",
       "Description": "Reads a text file and returns the contents as a string.\n\nFileSystem.ReadText (file: var): string"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "58db1da30f814ec9baee610cdc50064e",
+      "Inputs": [
+        {
+          "Id": "216f80798257488588ad178299178b3c",
+          "Name": "",
+          "Description": "Node to show output from",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "bc973cdf1eed4fd897d7d8701087261f",
+          "Name": "",
+          "Description": "Node output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualizes a node's output"
     }
   ],
   "Connectors": [
     {
+      "Start": "31cc058f6f77428bbe8d8430cbac3f5c",
+      "End": "216f80798257488588ad178299178b3c",
+      "Id": "ba5829a505224a919cbee020d4b9dc5b",
+      "IsHidden": "False"
+    },
+    {
       "Start": "a545ca6dae834341a810d7d749796e29",
       "End": "8171a25485ed4aa3a78c83ffe5796b26",
-      "Id": "8e5a4f2160f14f9c9e1bbd403b69e519",
+      "Id": "bb3350a2309c49c2b80fa1f714175bc9",
       "IsHidden": "False"
     },
     {
@@ -180,8 +215,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 708.49612244161767,
-        "Y": 244.24193039277884
+        "X": 753.09203930305273,
+        "Y": 239.09624767799789
       },
       {
         "Name": "File Path",
@@ -190,8 +225,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -82.184786175395175,
-        "Y": 254.62660555855109
+        "X": -87.4589957699319,
+        "Y": 219.59002224078665
       },
       {
         "Name": "FileSystem.ReadText",
@@ -200,13 +235,23 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 417.688115732488,
-        "Y": 249.43392368364903
+        "X": 437.09703251659812,
+        "Y": 242.71405346403537
+      },
+      {
+        "Name": "Watch",
+        "ShowGeometry": true,
+        "Id": "58db1da30f814ec9baee610cdc50064e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 215.92253228435322,
+        "Y": -179.30895423196728
       }
     ],
     "Annotations": [],
-    "X": 100.47472419491814,
-    "Y": 219.00712158834068,
-    "Zoom": 0.64286955740594787
+    "X": 67.7047622161706,
+    "Y": 421.04958421993831,
+    "Zoom": 0.63524834044862022
   }
 }
