@@ -24,6 +24,7 @@ from Autodesk.DesignScript.Geometry import *
 
 # _________________________________
 # output o salida
+# OUT = dir(Point)
 OUT = Point.ByCoordinates.__doc__
 
 
